@@ -209,18 +209,23 @@ body {
 }
 
 #choose {
-  max-width: 1200px;
-  margin: 120px auto;
-  padding: 0 20px;
+  max-width: 1600px;
+ 
   text-align: center;
+  background-color: rgba(35, 14, 61, 1);
+  width: 100%;
+  height: 1121px;
 }
 
 #choose h2 {
+ padding-top: 120px;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 60px;
 }
 .feature-grid {
+  padding-left: 120px;
+  padding-right: 120px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ; 
   grid-template-rows: 1fr 1fr 1fr;  
@@ -276,6 +281,77 @@ align-items: flex-start;
 }
 
 
+#Meet-The-Host {
+  padding: 120px 80px;
+  background-color:#1A0B2E;
+ border: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.host-container h2 {
+  font-size: 48px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.host-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto; 
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.5);
+}
+.host-info img {
+  width: 200px;
+height: 200px;
+}
+.host-about {
+  max-width: 700px;
+  text-align: left;
+}
+.host-about h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.host-about p {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 16px;
+}
+.host-link{
+display: flex;
+justify-content:left;
+
+list-style-type:none;
+gap:10px;
+
+}
+.host-link img{
+  width: auto;
+  max-width:100px;
+  height: auto;
+  display:inline;
+  max-height: 100px;
+  text-align: center;
+  align-items: center;
+border: 1px solid rgba(83, 60, 114, 1);
+border-radius:50%;
+ 
+}
+
 footer {
   padding: 60px 0;
   text-align: center;
@@ -299,8 +375,8 @@ footer {
 }
 
 .link-item img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 }
 
 .link-item a {
